@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Holtwood+One+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+*{
+    padding: 0;
+    margin:0;
+    font-family: "Roboto", sans-serif;
+}
+h3{
+    font-family: "Holtwood One SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:55px;
+}
+header{
+    color: white;
+    display: flex;
+    background: #0098fd;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    margin: 20px 25px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 25px;
+}
+input{
+    background: #c5c5c5;
+    border-radius: 2px;
+    width: 50%;
+    border: none;
+    height: 25px;
+}
+input:-webkit-autofill{
+    background: #000000 !important;
+}
+div{
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+div>p{
+    color: red;
+}
+.button{
+    color: white;
+    background: #000000;
+    border: none;
+    border-radius: 3px;
+    height: 30px;
+    width: 150px;
+}
+.button:focus-within{
+    color: #ff00ff;
+    border: #ffffff solid 2px;
+}
+table{left: 40px;
+    position: absolute;
+    border: #414040 solid 1px;
+    width: 95%;
+    border-spacing: 2px 3px;
+}
+tr{
+    text-align: left;
+    empty-cells: hide;
+}
+th,td{
+    padding: 2px;
+    border: #656262 solid 1px ;
+}
+form{
+    width: 100%;
+    gap: 23px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+#editar:hover{
+    transition: 5ms;
+    fill: #ff8000;
+}
+thead>tr>th{
+    text-align: center;
+}
+#apagar:hover{
+    transition: 5ms;
+    fill: red;
+}
+tbody>tr:nth-of-type(even){
+    background: #bad4ff;
+}
+
+
+td>button{
+    border: none;
+    background: none;
+    margin: 0px 20px   ;
+}
