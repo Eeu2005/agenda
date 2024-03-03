@@ -56,8 +56,10 @@ div>p{
     width: 150px;
 }
 .button:focus-within{
-    color: #ff00ff;
-    border: #ffffff solid 2px;
+   color: black;
+    background: white;
+    border: black solid 2px;
+    border-radius: 3px;
 }
 table{left: 40px;
     position: absolute;

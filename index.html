@@ -5,6 +5,7 @@
     <title>agenda</title>
     <link rel="stylesheet" href="style.css">
     <link type="img/pmg" sizes="96X96" rel="icon" href="img/icons8-calendar-96.png">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
 </head>
 <body>
 <header>
@@ -23,10 +24,10 @@
 <label for="data">
     Data da pessoa (campo obrigatório)
 </label>
-<input required type="text" name="data" id="data"    pattern="\d{2}/\d{2}/\d{4}" >
+<input  formnovalidate required type="text" name="data" id="data"    pattern="\d{2}/\d{2}/\d{4}" >
         <p> A data e em DD/MM/AAAA</p>
     </div>
-        <input type="submit" value="salvar"  class="button">
+        <input  type="submit" value="salvar"  class="button">
     </form>
 </main>
 <table>
@@ -45,7 +46,7 @@
 <script src="libs/jquery-3.7.1.min.js"></script>
 <script src="libs/jquery.mask.js"></script>
 <script>
-  $("#data").mask("00/00/0000")
+    $("#data").mask("00/00/0000")
 </script>
 </body>
 </html>
